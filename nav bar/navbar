@@ -1,0 +1,31 @@
+<head>
+    <meta charset=""utf-8">
+    <title>A Head</title>
+    <style>
+        header, footer {display:block; clear:both; padding:5px; text-align:center}
+        nav {display:block; float:left; width:10%; height:50%; background:rgb(180, 157, 13); padding:5px;}
+        article {display:block; float:right; width:80%; height:50%; background:rgb(127, 149, 206); padding:5px}
+    </style>
+</head>
+<body>
+    <header>
+        <b><large>One Piece:Opening Introduction</large></b>
+    </header>
+    <nav>
+        <ol>
+            <li><a href="#">OP1:ウィーアー!</a></li> 
+            <li><a href="#">OP2:Believe</a></li> 
+            <li><a href="#">OP3:ヒカリへ</a></li>
+        </ol> 
+    </nav>
+    <article>
+        <pre>
+            <b>ウィーアー!:</b>
+            主唱為北谷洋，於1999年10月20號同海賊王第一集播出，橫跨第一集到四十七集
+            有時也會於特別篇、紀念篇播出，是海迷們心中歷久不衰的神曲
+        </pre>
+    </article>
+    <footer>
+        Aldopha <sup>©</sup>Copyright
+    </footer>
+</body>
