@@ -1,0 +1,112 @@
+a {
+    background-color: transparent;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+	vertical-align: top;
+    border-style: none;
+} 
+
+.page{
+    margin-bottom: 30px
+}
+
+.navbar{
+    background-color:black;
+    color:white;
+    display:inline-block;
+    float:none;
+
+}
+
+.site-header .menu-wrap{
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header .site-branding {
+    display: inline-block;
+    vertical-align: middle;
+    width: 27%;
+    padding: 15px 0;
+}
+
+.logo-text .site-logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60px;
+}
+
+.custom-logo-link {
+	display: inline-block;
+}
+
+.menu-wrap .header-search {
+	width: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menu-wrap .main-navigation {
+	width: calc(100% - 45px);
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.main-navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-navigation ul li {
+	font-size: 0.778em;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	position: relative;
+}
+
+.main-navigation ul li:hover > a, 
+.main-navigation ul li.current-menu-item > a, 
+.main-navigation ul li.current_page_item > a {
+	color: #3F46AD;
+}
+
+.main-navigation ul li a {
+	display: inline-block;
+	padding: 30px 20px;
+	color: #121212;
+}
+
+.main-navigation ul ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 250px;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	text-align: left;
+	opacity: 0;
+	margin-left: -99999px;
+	/*visibility: hidden;*/
+	-webkit-transition: opacity ease 0.35s;
+	-moz-transition: opacity ease 0.35s;
+	transition: opacity ease 0.35s;
+}
+
+.main-navigation ul ul ul {
+	left: 100%;
+	top: 0;
+}
